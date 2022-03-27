@@ -30,13 +30,20 @@ $ truffle test
 Blockchain:
 
 Ethereum - Blockchain Network
+
 Solidity - Smart Contracts
+
 Truffle - development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM)
+
 Ganache - Create private Ethereum blockchain to run tests
 Web App:
 
 Metamask - A crypto wallet & gateway to blockchain apps
+
 Web3.js - collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket
+
 React - For designing user interface
+
 CSS - Style Sheet Language
+
 Bootstrap - Templating
