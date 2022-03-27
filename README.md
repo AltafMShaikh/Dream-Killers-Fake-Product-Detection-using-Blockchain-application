@@ -13,6 +13,7 @@ $ git clone https://github.com/AltafMShaikh/Dream-Killers-Fake-Product-Detection
 Installing the dependencies
 
 $ npm install
+
 Migrate
 
 $ truffle migrate --reset
@@ -24,6 +25,7 @@ change repo to client-cd client
 $ npm install 
 
 $ npm run dev
+
 Running the tests
 
 $ truffle test
