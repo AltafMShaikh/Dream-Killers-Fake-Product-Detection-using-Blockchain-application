@@ -15,6 +15,7 @@ $ npm install
 Migrate
 
 $ truffle migrate --reset
+
 Running the server
 
 change repo to client-cd client
