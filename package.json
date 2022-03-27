@@ -1,5 +1,5 @@
 {
-  "name": "fake-products-prevention-using-blockchain",
+  "name": "fake-products-detection-using-blockchain",
   "version": "0.1.0",
   "description": "Blockchain based application",
   "main": "truffle-config.js",
@@ -10,7 +10,7 @@
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && sexit 1"
   },
-  "author": "Utkarsh Tiwari",
+  "author": "DreamKillers",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
