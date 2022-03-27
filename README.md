@@ -36,6 +36,7 @@ Solidity - Smart Contracts
 Truffle - development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM)
 
 Ganache - Create private Ethereum blockchain to run tests
+
 Web App:
 
 Metamask - A crypto wallet & gateway to blockchain apps
