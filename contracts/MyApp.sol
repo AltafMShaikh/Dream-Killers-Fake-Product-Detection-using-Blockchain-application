@@ -14,6 +14,7 @@ contract MyApp {
 	*/
 	uint productId = 0;
 
+	// define all custom structs
 
 	struct Manufacturer {
 		bool exists;
@@ -33,7 +34,16 @@ contract MyApp {
 
 	
 
+
 	
+	mapping(address => Manufacturer) public manufacturers;
+	mapping(uint => Product) products;
+
+
+	
+	event ManufacturerCreated(string name, address _address);
+	event ProductCreated(uint id, address manufacturer);
+	event OwnershipUpdated(uint id, address newOwner);
 
 
 	
@@ -54,6 +64,7 @@ contract MyApp {
 	}
 
 
+	
 	function createProduct(string memory _name, string memory _model) public {
 		require(manufacturers[msg.sender].exists == true, "You are not a Manufacturer!");
 
@@ -78,6 +89,7 @@ contract MyApp {
 	}
 
 
+	
 	function updateOwnership(uint _id, address _newOwner) public {
 		Product storage p = products[_id];
 		require(p.curOwner == msg.sender, "Not authorized");
